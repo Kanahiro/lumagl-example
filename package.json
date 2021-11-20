@@ -1,13 +1,14 @@
 {
     "type": "module",
     "private": true,
-    "name": "webpack-template",
+    "name": "lumagl-example",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "webpack serve --mode development --open --hot --config webpack.config.js"
+        "dev": "webpack serve --mode development --open --hot --config webpack.config.js",
+        "build": "webpack"
     },
     "repository": {
         "type": "git",
@@ -15,11 +16,7 @@
     },
     "keywords": [],
     "author": "Kanahiro Iguchi <kanahiro.iguchi@gmail.com> (https://github.com/Kanahiro)",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Kanahiro/webpack-template/issues"
-    },
-    "homepage": "https://github.com/Kanahiro/webpack-template#readme",
+    "license": "MIT",
     "devDependencies": {
         "css-loader": "^6.3.0",
         "style-loader": "^3.3.0",
