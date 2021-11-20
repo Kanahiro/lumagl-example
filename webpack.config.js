@@ -4,11 +4,7 @@ import * as path from 'path';
 export default {
     mode: 'development',
     entry: './demo/index.ts',
-    plugins: [
-        new webpack.ProvidePlugin({
-            Promise: 'es6-promise',
-        }),
-    ],
+    plugins: [],
     output: {
         filename: 'index.bundle.js',
         path: path.resolve(
