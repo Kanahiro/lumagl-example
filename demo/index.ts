@@ -34,7 +34,7 @@ const loop = new AnimationLoop({
             attributes: {
                 position: positionBuffer,
             },
-            vertexCount: positions.length,
+            vertexCount: positions.length / 2,
         });
         return { model };
     },
